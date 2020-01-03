@@ -1,0 +1,97 @@
+img {
+    width: 40%;
+    margin: 1.5% 1.5% 1.5% 1.5%;
+}
+
+div {
+  background: white;
+  border: 10px 10px 10px 10px transparent;
+}
+
+aside {
+    display: block;
+    float: right;
+    margin: 0 3.5% 13.5% 3.5%;
+    width: 50%;
+  }
+
+  .intro p {
+    font-size: x-large;
+}
+
+body{
+    font-family: 'Lucida Grande','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: white;
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center; */
+    padding: 20px 0 40px 0;
+}
+
+.header-tab{
+  margin: 20px 0 40px 0;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration:none;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: black;
+    /* border: 10px rgb(6, 204, 111) solid; */
+    border-bottom: 100px thick green;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a:active {
+    /* background-color: #4CAF50; */
+    color:blue;
+  }
+
+footer {
+    background-color: rgb(6, 204, 111);
+    color: black;
+    padding: 30px 0 30px 0;
+    width: 100%;
+}
+
+.icons{
+display: flex;
+justify-content: space-around;
+}
+
+.box {
+  width: 60px;
+  background-color: rgb(6, 204, 111);
+  padding: 5px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position:relative;
+}
+
+.sb1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 6px solid rgb(6, 204, 111);
+    border-right: 6px solid transparent;
+    border-top: 3px solid rgb(6, 204, 111);
+    border-bottom: 10px solid transparent;
+    left: 8px;
+    bottom: -11px;
+}
